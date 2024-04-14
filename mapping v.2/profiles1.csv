@@ -1,0 +1,123 @@
+speciesCode,comName,sciName,locId,locName,obsDt,howMany,lat,lng,obsValid,locationPrivate,subId
+wesmea,Western Meadowlark,Sturnella neglecta,L2881552,Pt. Reyes--Drakes Corner,2024-04-12 08:30,1,38.0480911,-122.9728889,True,False,False,S168255688
+gresca,Greater Scaup,Aythya marila,L30546819,"12806–12814 Sir Francis Drake Blvd, Inverness US-CA 38.09902, -122.85351",2024-04-11 19:29,32,38.099019,-122.85351,True,False,True,S168201502
+wesgre,Western Grebe,Aechmophorus occidentalis,L30546819,"12806–12814 Sir Francis Drake Blvd, Inverness US-CA 38.09902, -122.85351",2024-04-11 19:29,1,38.099019,-122.85351,True,False,True,S168201502
+belkin1,Belted Kingfisher,Megaceryle alcyon,L30546819,"12806–12814 Sir Francis Drake Blvd, Inverness US-CA 38.09902, -122.85351",2024-04-11 19:29,1,38.099019,-122.85351,True,False,True,S168201502
+cangoo,Canada Goose,Branta canadensis,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,2,38.0268982,-122.8827238,True,False,False,S168244358
+mallar3,Mallard,Anas platyrhynchos,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,2,38.0268982,-122.8827238,True,False,False,S168244358
+sursco,Surf Scoter,Melanitta perspicillata,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,8,38.0268982,-122.8827238,True,False,False,S168244358
+snoplo5,Snowy Plover,Anarhynchus nivosus,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,5,38.0268982,-122.8827238,True,False,False,S168244358
+sander,Sanderling,Calidris alba,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,300,38.0268982,-122.8827238,True,False,False,S168244358
+dunlin,Dunlin,Calidris alpina,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,1,38.0268982,-122.8827238,True,False,False,S168244358
+wesgul,Western Gull,Larus occidentalis,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,4,38.0268982,-122.8827238,True,False,False,S168244358
+comloo,Common Loon,Gavia immer,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,2,38.0268982,-122.8827238,True,False,False,S168244358
+turvul,Turkey Vulture,Cathartes aura,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,4,38.0268982,-122.8827238,True,False,False,S168244358
+osprey,Osprey,Pandion haliaetus,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,2,38.0268982,-122.8827238,True,False,False,S168244358
+reshaw,Red-shouldered Hawk,Buteo lineatus,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,1,38.0268982,-122.8827238,True,False,False,S168244358
+cowscj1,California Scrub-Jay,Aphelocoma californica,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,1,38.0268982,-122.8827238,True,False,False,S168244358
+comrav,Common Raven,Corvus corax,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,1,38.0268982,-122.8827238,True,False,False,S168244358
+vigswa,Violet-green Swallow,Tachycineta thalassina,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,2,38.0268982,-122.8827238,True,False,False,S168244358
+cliswa,Cliff Swallow,Petrochelidon pyrrhonota,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,10,38.0268982,-122.8827238,True,False,False,S168244358
+wrenti,Wrentit,Chamaea fasciata,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,1,38.0268982,-122.8827238,True,False,False,S168244358
+whcspa,White-crowned Sparrow,Zonotrichia leucophrys,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,2,38.0268982,-122.8827238,True,False,False,S168244358
+sonspa,Song Sparrow,Melospiza melodia,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,1,38.0268982,-122.8827238,True,False,False,S168244358
+yerwar,Yellow-rumped Warbler,Setophaga coronata,L479690,Pt. Reyes--Limantour Beach Path,2024-04-11 17:55,2,38.0268982,-122.8827238,True,False,False,S168244358
+annhum,Anna's Hummingbird,Calypte anna,L590462,Pt. Reyes--Limantour Beach,2024-04-11 08:30,1,38.0249882,-122.883153,True,False,False,S168161689
+whimbr,Whimbrel,Numenius phaeopus,L590462,Pt. Reyes--Limantour Beach,2024-04-11 08:30,2,38.0249882,-122.883153,True,False,False,S168161689
+caster1,Caspian Tern,Hydroprogne caspia,L590462,Pt. Reyes--Limantour Beach,2024-04-11 08:30,1,38.0249882,-122.883153,True,False,False,S168161689
+greegr,Great Egret,Ardea alba,L590462,Pt. Reyes--Limantour Beach,2024-04-11 08:30,1,38.0249882,-122.883153,True,False,False,S168161689
+amecro,American Crow,Corvus brachyrhynchos,L590462,Pt. Reyes--Limantour Beach,2024-04-11 08:30,4,38.0249882,-122.883153,True,False,False,S168161689
+rebnut,Red-breasted Nuthatch,Sitta canadensis,L590462,Pt. Reyes--Limantour Beach,2024-04-11 08:30,1,38.0249882,-122.883153,True,False,False,S168161689
+bewwre,Bewick's Wren,Thryomanes bewickii,L590462,Pt. Reyes--Limantour Beach,2024-04-11 08:30,1,38.0249882,-122.883153,True,False,False,S168161689
+wesblu,Western Bluebird,Sialia mexicana,L590462,Pt. Reyes--Limantour Beach,2024-04-11 08:30,1,38.0249882,-122.883153,True,False,False,S168161689
+houfin,House Finch,Haemorhous mexicanus,L590462,Pt. Reyes--Limantour Beach,2024-04-11 08:30,1,38.0249882,-122.883153,True,False,False,S168161689
+amegfi,American Goldfinch,Spinus tristis,L590462,Pt. Reyes--Limantour Beach,2024-04-11 08:30,1,38.0249882,-122.883153,True,False,False,S168161689
+bnhcow,Brown-headed Cowbird,Molothrus ater,L590462,Pt. Reyes--Limantour Beach,2024-04-11 08:30,2,38.0249882,-122.883153,True,False,False,S168161689
+calqua,California Quail,Callipepla californica,L30521484,"Abbotts Lagoon Trail, Inverness US-CA 38.12369, -122.93631",2024-04-10 16:28,3,38.123691,-122.936315,True,False,True,S168076079
+rethaw,Red-tailed Hawk,Buteo jamaicensis,L30521484,"Abbotts Lagoon Trail, Inverness US-CA 38.12369, -122.93631",2024-04-10 16:28,2,38.123691,-122.936315,True,False,True,S168076079
+daejun,Dark-eyed Junco,Junco hyemalis,L30521484,"Abbotts Lagoon Trail, Inverness US-CA 38.12369, -122.93631",2024-04-10 16:28,1,38.123691,-122.936315,True,False,True,S168076079
+buffle,Bufflehead,Bucephala albeola,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,12,38.1190611,-122.9522467,True,False,False,S168088643
+moudov,Mourning Dove,Zenaida macroura,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,3,38.1190611,-122.9522467,True,False,False,S168088643
+sora,Sora,Porzana carolina,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,1,38.1190611,-122.9522467,True,False,False,S168088643
+bkbplo,Black-bellied Plover,Pluvialis squatarola,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,1,38.1190611,-122.9522467,True,False,False,S168088643
+ribgul,Ring-billed Gull,Larus delawarensis,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,3,38.1190611,-122.9522467,True,False,False,S168088643
+pacloo,Pacific Loon,Gavia pacifica,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,1,38.1190611,-122.9522467,True,False,False,S168088643
+doccor,Double-crested Cormorant,Nannopterum auritum,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,1,38.1190611,-122.9522467,True,False,False,S168088643
+snoegr,Snowy Egret,Egretta thula,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,1,38.1190611,-122.9522467,True,False,False,S168088643
+grbher3,Great Blue Heron,Ardea herodias,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,1,38.1190611,-122.9522467,True,False,False,S168088643
+norhar2,Northern Harrier,Circus hudsonius,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,1,38.1190611,-122.9522467,True,False,False,S168088643
+savspa,Savannah Sparrow,Passerculus sandwichensis,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,2,38.1190611,-122.9522467,True,False,False,S168088643
+spotow,Spotted Towhee,Pipilo maculatus,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,2,38.1190611,-122.9522467,True,False,False,S168088643
+rewbla,Red-winged Blackbird,Agelaius phoeniceus,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,8,38.1190611,-122.9522467,True,False,False,S168088643
+comyel,Common Yellowthroat,Geothlypis trichas,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-10 14:31,2,38.1190611,-122.9522467,True,False,False,S168088643
+lobcur,Long-billed Curlew,Numenius americanus,L590462,Pt. Reyes--Limantour Beach,2024-04-10 12:06,3,38.0249882,-122.883153,True,False,False,S168079166
+wlswar,Wilson's Warbler,Cardellina pusilla,L479690,Pt. Reyes--Limantour Beach Path,2024-04-10 11:58,1,38.0268982,-122.8827238,True,False,False,S168079125
+semplo,Semipalmated Plover,Charadrius semipalmatus,L391136,Pt. Reyes--Drakes Beach (DO NOT INCLUDE Horseshoe Pond or beach/estero beyond Horseshoe Pond),2024-04-10 11:25,1,38.0271821,-122.9615507,True,False,False,S168069811
+leasan,Least Sandpiper,Calidris minutilla,L391136,Pt. Reyes--Drakes Beach (DO NOT INCLUDE Horseshoe Pond or beach/estero beyond Horseshoe Pond),2024-04-10 11:25,24,38.0271821,-122.9615507,True,False,False,S168069811
+treswa,Tree Swallow,Tachycineta bicolor,L391136,Pt. Reyes--Drakes Beach (DO NOT INCLUDE Horseshoe Pond or beach/estero beyond Horseshoe Pond),2024-04-10 11:25,1,38.0271821,-122.9615507,True,False,False,S168069811
+eursta,European Starling,Sturnus vulgaris,L391136,Pt. Reyes--Drakes Beach (DO NOT INCLUDE Horseshoe Pond or beach/estero beyond Horseshoe Pond),2024-04-10 11:25,2,38.0271821,-122.9615507,True,False,False,S168069811,N
+batpig1,Band-tailed Pigeon,Patagioenas fasciata,L1980992,Chicken Ranch Beach,2024-04-10 09:32,1,38.1098433,-122.8651446,True,False,False,S168017139
+acowoo,Acorn Woodpecker,Melanerpes formicivorus,L1980992,Chicken Ranch Beach,2024-04-10 09:32,3,38.1098433,-122.8651446,True,False,False,S168017139
+purfin,Purple Finch,Haemorhous purpureus,L1980992,Chicken Ranch Beach,2024-04-10 09:32,1,38.1098433,-122.8651446,True,False,False,S168017139
+blksco2,Black Scoter,Melanitta americana,L453386,Pt. Reyes--Fish Docks (DO NOT INCLUDE Chimney Rock area),2024-04-10 09:30,1,37.9956216,-122.9782104,True,False,False,S168039263
+eargre,Eared Grebe,Podiceps nigricollis,L453386,Pt. Reyes--Fish Docks (DO NOT INCLUDE Chimney Rock area),2024-04-10 09:30,1,37.9956216,-122.9782104,True,False,False,S168039263
+eucdov,Eurasian Collared-Dove,Streptopelia decaocto,L453386,Pt. Reyes--Fish Docks (DO NOT INCLUDE Chimney Rock area),2024-04-10 09:30,1,37.9956216,-122.9782104,True,False,False,S168039263,N
+allhum,Allen's Hummingbird,Selasphorus sasin,L453386,Pt. Reyes--Fish Docks (DO NOT INCLUDE Chimney Rock area),2024-04-10 09:30,1,37.9956216,-122.9782104,True,False,False,S168039263
+blkoys,Black Oystercatcher,Haematopus bachmani,L453386,Pt. Reyes--Fish Docks (DO NOT INCLUDE Chimney Rock area),2024-04-10 09:30,1,37.9956216,-122.9782104,True,False,False,S168039263
+retloo,Red-throated Loon,Gavia stellata,L453386,Pt. Reyes--Fish Docks (DO NOT INCLUDE Chimney Rock area),2024-04-10 09:30,1,37.9956216,-122.9782104,True,False,False,S168039263
+baleag,Bald Eagle,Haliaeetus leucocephalus,L453386,Pt. Reyes--Fish Docks (DO NOT INCLUDE Chimney Rock area),2024-04-10 09:30,1,37.9956216,-122.9782104,True,True,False,S168039263
+norfli,Northern Flicker,Colaptes auratus,L453386,Pt. Reyes--Fish Docks (DO NOT INCLUDE Chimney Rock area),2024-04-10 09:30,2,37.9956216,-122.9782104,True,False,False,S168039263
+barswa,Barn Swallow,Hirundo rustica,L453386,Pt. Reyes--Fish Docks (DO NOT INCLUDE Chimney Rock area),2024-04-10 09:30,3,37.9956216,-122.9782104,True,False,False,S168039263
+houspa,House Sparrow,Passer domesticus,L453386,Pt. Reyes--Fish Docks (DO NOT INCLUDE Chimney Rock area),2024-04-10 09:30,4,37.9956216,-122.9782104,True,False,False,S168039263,N
+brebla,Brewer's Blackbird,Euphagus cyanocephalus,L453386,Pt. Reyes--Fish Docks (DO NOT INCLUDE Chimney Rock area),2024-04-10 09:30,1,37.9956216,-122.9782104,True,False,False,S168039263
+piggui,Pigeon Guillemot,Cepphus columba,L491638,Pt. Reyes--Chimney Rock (DO NOT INCLUDE Fish Docks/Life Boat station area),2024-04-10 07:40,14,37.9895338,-122.9631042,True,False,False,S168039446
+pelcor,Pelagic Cormorant,Urile pelagicus,L491638,Pt. Reyes--Chimney Rock (DO NOT INCLUDE Fish Docks/Life Boat station area),2024-04-10 07:40,6,37.9895338,-122.9631042,True,False,False,S168039446
+brnpel,Brown Pelican,Pelecanus occidentalis,L491638,Pt. Reyes--Chimney Rock (DO NOT INCLUDE Fish Docks/Life Boat station area),2024-04-10 07:40,12,37.9895338,-122.9631042,True,False,False,S168039446
+rocwre,Rock Wren,Salpinctes obsoletus,L491638,Pt. Reyes--Chimney Rock (DO NOT INCLUDE Fish Docks/Life Boat station area),2024-04-10 07:40,1,37.9895338,-122.9631042,True,False,False,S168039446
+rebmer,Red-breasted Merganser,Mergus serrator,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-09 13:33,1,38.1190611,-122.9522467,True,False,False,S167956801
+clagre,Clark's Grebe,Aechmophorus clarkii,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-09 13:33,3,38.1190611,-122.9522467,True,False,False,S167956801
+killde,Killdeer,Charadrius vociferus,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-09 13:33,2,38.1190611,-122.9522467,True,False,False,S167956801
+graspa,Grasshopper Sparrow,Ammodramus savannarum,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-09 13:33,2,38.1190611,-122.9522467,True,False,False,S167956801
+gocspa,Golden-crowned Sparrow,Zonotrichia atricapilla,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-09 13:33,1,38.1190611,-122.9522467,True,False,False,S167956801
+chbchi,Chestnut-backed Chickadee,Poecile rufescens,L638776,Pt. Reyes--RCA Building,2024-04-09 13:21,38.0955922,-122.9471397,True,False,False,S167917289
+margod,Marbled Godwit,Limosa fedoa,L391136,Pt. Reyes--Drakes Beach (DO NOT INCLUDE Horseshoe Pond or beach/estero beyond Horseshoe Pond),2024-04-09 12:54,5,38.0271821,-122.9615507,True,False,False,S168002525
+calgul,California Gull,Larus californicus,L391136,Pt. Reyes--Drakes Beach (DO NOT INCLUDE Horseshoe Pond or beach/estero beyond Horseshoe Pond),2024-04-09 12:54,5,38.0271821,-122.9615507,True,False,False,S168002525
+virrai,Virginia Rail,Rallus limicola,L1342372,Pt. Reyes--Abbotts Lagoon Trailhead,2024-04-09 09:00,38.123366,-122.9353027,True,False,False,S167891829
+hutvir,Hutton's Vireo,Vireo huttoni,L30481355,"Tomales Bay State Park, Inverness US-CA 38.12315, -122.90073",2024-04-09 08:38,38.123153,-122.900732,True,False,True,S167874836
+pygnut,Pygmy Nuthatch,Sitta pygmaea,L30481355,"Tomales Bay State Park, Inverness US-CA 38.12315, -122.90073",2024-04-09 08:38,38.123153,-122.900732,True,False,True,S167874836
+redcro,Red Crossbill,Loxia curvirostra,L30481355,"Tomales Bay State Park, Inverness US-CA 38.12315, -122.90073",2024-04-09 08:38,3,38.123153,-122.900732,True,False,True,S167874836
+warvir,Warbling Vireo,Vireo gilvus,L30480575,"12521–12567 Sir Francis Drake Blvd, Inverness US-CA 38.07850, -122.83266",2024-04-09 08:14,38.078496,-122.83266,True,False,True,S167871020
+ruckin,Ruby-crowned Kinglet,Corthylio calendula,L30480575,"12521–12567 Sir Francis Drake Blvd, Inverness US-CA 38.07850, -122.83266",2024-04-09 08:14,38.078496,-122.83266,True,False,True,S167871020
+amerob,American Robin,Turdus migratorius,L30480575,"12521–12567 Sir Francis Drake Blvd, Inverness US-CA 38.07850, -122.83266",2024-04-09 08:14,38.078496,-122.83266,True,False,True,S167871020
+caltow,California Towhee,Melozone crissalis,L613218,Pt. Reyes Hostel,2024-04-09 07:41,2,38.0440862,-122.8620386,True,False,False,S167865017
+dowwoo,Downy Woodpecker,Dryobates pubescens,L613218,Pt. Reyes Hostel,2024-04-09 06:52,1,38.0440862,-122.8620386,True,False,False,S167860597
+pacwre1,Pacific Wren,Troglodytes pacificus,L613218,Pt. Reyes Hostel,2024-04-09 06:52,1,38.0440862,-122.8620386,True,False,False,S167860597
+orcwar,Orange-crowned Warbler,Leiothlypis celata,L613218,Pt. Reyes Hostel,2024-04-09 06:52,1,38.0440862,-122.8620386,True,False,False,S167860597
+btywar,Black-throated Gray Warbler,Setophaga nigrescens,L613218,Pt. Reyes Hostel,2024-04-09 06:52,1,38.0440862,-122.8620386,True,False,False,S167860597
+willet1,Willet,Tringa semipalmata,L1980992,Chicken Ranch Beach,2024-04-08 17:27,3,38.1098433,-122.8651446,True,False,False,S167811329
+bracor,Brandt's Cormorant,Urile penicillatus,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-08 14:40,5,38.1190611,-122.9522467,True,False,False,S167846228
+comgol,Common Goldeneye,Bucephala clangula,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-08 14:12,5,38.1190611,-122.9522467,True,False,False,S167809659
+goleag,Golden Eagle,Aquila chrysaetos,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-08 14:12,1,38.1190611,-122.9522467,True,False,False,S167809659
+blkpho,Black Phoebe,Sayornis nigricans,L218324,Pt. Reyes--Abbotts Lagoon,2024-04-08 14:12,1,38.1190611,-122.9522467,True,False,False,S167809659
+greyel,Greater Yellowlegs,Tringa melanoleuca,L30462646,"20 Drakes View Dr, Inverness US-CA 38.07830, -122.83266",2024-04-08 13:41,4,38.078303,-122.832656,True,False,True,S167781060
+horgre,Horned Grebe,Podiceps auritus,L590835,Pt. Reyes--New Willows,2024-04-08 13:19,1,37.9974943,-122.9831564,True,False,False,S167850275
+foxspa,Fox Sparrow,Passerella iliaca,L491638,Pt. Reyes--Chimney Rock (DO NOT INCLUDE Fish Docks/Life Boat station area),2024-04-08 12:18,1,37.9895338,-122.9631042,True,False,False,S167853580
+hergul,Herring Gull,Larus argentatus,L130809,Pt. Reyes--Lighthouse,2024-04-08 10:36,1,37.996,-123.022,True,False,False,S168044711
+haiwoo,Hairy Woodpecker,Dryobates villosus,L479522,Pt. Reyes--Muddy Hollow,2024-04-08 08:12,2,38.0345209,-122.8823376,True,False,False,S167772373
+wesfly,Western Flycatcher,Empidonax difficilis,L479522,Pt. Reyes--Muddy Hollow,2024-04-08 08:12,1,38.0345209,-122.8823376,True,False,False,S167772373
+stejay,Steller's Jay,Cyanocitta stelleri,L479522,Pt. Reyes--Muddy Hollow,2024-04-08 08:12,4,38.0345209,-122.8823376,True,False,False,S167772373
+gockin,Golden-crowned Kinglet,Regulus satrapa,L479522,Pt. Reyes--Muddy Hollow,2024-04-08 08:12,1,38.0345209,-122.8823376,True,False,False,S167772373
+varthr,Varied Thrush,Ixoreus naevius,L479522,Pt. Reyes--Muddy Hollow,2024-04-08 08:12,1,38.0345209,-122.8823376,True,False,False,S167772373
+pinsis,Pine Siskin,Spinus pinus,L479522,Pt. Reyes--Muddy Hollow,2024-04-08 08:12,1,38.0345209,-122.8823376,True,False,False,S167772373
+lesgol,Lesser Goldfinch,Spinus psaltria,L613218,Pt. Reyes Hostel,2024-04-07 17:18,1,38.0440862,-122.8620386,True,False,False,S167654582
+canvas,Canvasback,Aythya valisineria,L470192,Inverness City Park,2024-04-06 18:41,6,38.0963901,-122.8513312,True,False,False,S167542749
+y00475,American Coot,Fulica americana,L470192,Inverness City Park,2024-04-06 18:41,20,38.0963901,-122.8513312,True,False,False,S167542749
+commur,Common Murre,Uria aalge,L470192,Inverness City Park,2024-04-06 18:41,4,38.0963901,-122.8513312,True,False,False,S167542749
+marwre,Marsh Wren,Cistothorus palustris,L20644962,"Point Reyes National Seashore, Inverness US-CA 38.03212, -122.87198",2024-04-06 18:09,3,38.032117,-122.871979,True,False,True,S167786150
+glwgul,Glaucous-winged Gull,Larus glaucescens,L130809,Pt. Reyes--Lighthouse,2024-04-06 17:14,2,37.996,-123.022,True,False,False,S167543287
+pibgre,Pied-billed Grebe,Podilymbus podiceps,L590462,Pt. Reyes--Limantour Beach,2024-04-06 15:58,1,38.0249882,-122.883153,True,False,False,S167455506
+bushti,Bushtit,Psaltriparus minimus,L590462,Pt. Reyes--Limantour Beach,2024-04-06 15:58,1,38.0249882,-122.883153,True,False,False,S167455506
+whwsco2,White-winged Scoter,Melanitta deglandi,L491638,Pt. Reyes--Chimney Rock (DO NOT INCLUDE Fish Docks/Life Boat station area),2024-04-06 15:23,2,37.9895338,-122.9631042,True,False,False,S167543725
+rudduc,Ruddy Duck,Oxyura jamaicensis,L491638,Pt. Reyes--Chimney Rock (DO NOT INCLUDE Fish Docks/Life Boat station area),2024-04-06 15:23,3,37.9895338,-122.9631042,True,False,False,S167543725
+grhowl,Great Horned Owl,Bubo virginianus,L491638,Pt. Reyes--Chimney Rock (DO NOT INCLUDE Fish Docks/Life Boat station area),2024-04-06 15:23,1,37.9895338,-122.9631042,True,False,False,S167543725
+harduc,Harlequin Duck,Histrionicus histrionicus,L491638,Pt. Reyes--Chimney Rock (DO NOT INCLUDE Fish Docks/Life Boat station area),2024-04-06 14:58,2,37.9895338,-122.9631042,True,True,False,S167478392

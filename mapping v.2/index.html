@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- leaflet css sheet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <!-- leaflet js script -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <!-- turf js script -->
+  <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+  <script src="https://kit.fontawesome.com/2b9cdc1c9a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <div class="big" style="display: flex;">
+    <div id="mapContainer" style="flex: 1;">
+      <div id="map">
+      </div>
+    </div>
+    <div id="infoContainer" style="flex: 1; padding: 1rem;">
+      <div id="infoHeader" style="display: flex; gap: 1rem;">
+        <div id="birdImage">
+          <img src="bird_img.jpeg" style="flex: 1; width: 4rem; object-fit: cover;">
+        </div>
+        <div id="birdNames" style="flex:1;">
+          <div id="birdName">
+            Bird name
+          </div>
+          <div id="scientificName">
+            Scientific name
+          </div>
+        </div>
+      </div>
+      <hr style="border-color: red;">
+      <div id="birdDescription" style="background-color: gray; border-radius: 1rem; padding: .5rem;">
+        <i class="fa-solid fa-info"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores reprehenderit, cumque eligendi iure architecto
+        praesentium fuga consequuntur provident qui deleniti, optio quia id nemo necessitatibus, ratione ducimus
+        facilis.
+        Illum, laudantium.
+      </div>
+    </div>
+  </div>
+  <!-- <div id="buttonContainer" style="background-color: red;">
+    <div id="mapBtn">Zoom</div>
+  </div> -->
+
+  <div class="dropdown" data-control="checkbox-dropdown">
+    <label class="dropdown-label">Select</label>
+
+    <div class="dropdown-list">
+      <a href="#" data-toggle="check-all" class="dropdown-option">
+        Check All
+      </a>
+
+      <label class="dropdown-option">
+        <input type="checkbox" name="dropdown-group" value="Selection 1" />
+        Selection One
+      </label>
+
+      <label class="dropdown-option">
+        <input type="checkbox" name="dropdown-group" value="Selection 2" />
+        Selection Two
+      </label>
+
+      <label class="dropdown-option">
+        <input type="checkbox" name="dropdown-group" value="Selection 3" />
+        Selection Three
+      </label>
+
+      <!-- <label class="dropdown-option">
+            <input type="checkbox" name="dropdown-group" value="Selection 4" />
+            Selection Four
+          </label> -->
+
+      <!-- <label class="dropdown-option">
+            <input type="checkbox" name="dropdown-group" value="Selection 5" />
+            Selection Five
+          </label>       -->
+    </div>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+
+</html>
