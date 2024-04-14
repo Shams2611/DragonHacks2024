@@ -1,0 +1,38 @@
+[
+  {
+    "name": "animal",
+    "confidence": 0.9989176988601685
+  },
+  {
+    "name": "bird",
+    "confidence": 0.9980126619338989
+  },
+  {
+    "name": "tree",
+    "confidence": 0.984349250793457
+  },
+  {
+    "name": "oscine",
+    "confidence": 0.978827714920044
+  },
+  {
+    "name": "outdoor",
+    "confidence": 0.9750216603279114
+  },
+  {
+    "name": "branch",
+    "confidence": 0.9746624827384949
+  },
+  {
+    "name": "red",
+    "confidence": 0.9562027454376221
+  },
+  {
+    "name": "perched",
+    "confidence": 0.9167729616165161
+  },
+  {
+    "name": "wildlife",
+    "confidence": 0.5168048143386841
+  }
+]
