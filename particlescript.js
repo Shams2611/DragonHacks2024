@@ -1,5 +1,3 @@
-console.log("asdfasd")
-
 var w, h, loopId, id, canvas, ctx, particles;
 
 var options = {
