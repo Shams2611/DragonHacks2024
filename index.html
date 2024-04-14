@@ -1,140 +1,237 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>BirderBase</title>
-    <meta charset="utf-8" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Atkinson Hyperlegible"
-      rel="stylesheet"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="icon" type="image/x-icon" href="images/BirdFavicon.png" />
-    <script
-      src="https://kit.fontawesome.com/2b9cdc1c9a.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="particlescript.js"></script>
-  </head>
 
-  <body class="is-preload">
-    <!-- Nav -->
-    <nav id="nav">
-      <ul class="container">
-        <li>
-          <a href="#top"><i class="fa-solid fa-house"></i> Home</a>
-        </li>
-        <li>
-          <a href="#birdMap"><i class="fa-solid fa-map"></i> Map</a>
-        </li>
-        <li>
-          <a href="#identification"
-            ><i class="fa-solid fa-magnifying-glass"></i> Identification</a
-          >
-        </li>
-        <li>
-          <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
-        </li>
-      </ul>
-    </nav>
+<head>
+  <title>BirderBase</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Atkinson Hyperlegible" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="icon" type="image/x-icon" href="images/BirdFavicon.png" />
+  <script src="https://kit.fontawesome.com/2b9cdc1c9a.js" crossorigin="anonymous"></script>
+  <script src="particlescript.js"></script>
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <!-- leaflet js script -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <!-- turf js script -->
+  <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+  <script src="https://kit.fontawesome.com/2b9cdc1c9a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
 
-    <!-- Home -->
-    <div id="particleContainer">
-      <canvas id="canvas" style="position: absolute; top: 0; right: 0">
-      </canvas>
-      <article id="top" class="wrapper style1">
-        <div class="container">
-          <div class="row">
-            <div class="col-4 col-5-large col-12-medium">
-              <span class="image fit"
-                ><img src="images/bird2.png" alt=""
-              /></span>
-            </div>
-            <div class="col-8 col-7-large col-12-medium">
-              <header>
-                <h1>
-                  Welcome to
-                  <strong
-                    >Birder<span style="color: var(--blue)">Base</span></strong
-                  >
-                </h1>
-              </header>
-              <p>
-                Track birds, visualize data, and learn more about the local
-                birding scene.
-              </p>
-              <a href="#birdMap" class="button large scrolly"
-                ><i class="fa-solid fa-location-dot"></i> Explore Our Map</a
-              >
-            </div>
+<body class="is-preload">
+  <!-- Nav -->
+  <nav id="nav">
+    <ul class="container">
+      <li>
+        <a href="#top"><i class="fa-solid fa-house"></i> Home</a>
+      </li>
+      <li>
+        <a href="#birdMap"><i class="fa-solid fa-map"></i> Map</a>
+      </li>
+      <li>
+        <a href="#identification"><i class="fa-solid fa-magnifying-glass"></i> Identification</a>
+      </li>
+      <li>
+        <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+  <div id="particleContainer">
+    <canvas id="canvas" style="position: absolute; top: 0; right: 0">
+    </canvas>
+    <article id="top" class="wrapper style1">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-5-large col-12-medium">
+            <span class="image fit"><img src="images/bird2.png" alt="" /></span>
+          </div>
+          <div class="col-8 col-7-large col-12-medium">
+            <header>
+              <h1>
+                Welcome to
+                <strong>Birder<span style="color: var(--blue)">Base</span></strong>
+              </h1>
+            </header>
+            <p>
+              Track birds, visualize data, and learn more about the local
+              birding scene.
+            </p>
+            <a href="#birdMap" class="button large scrolly"><i class="fa-solid fa-location-dot"></i> Explore Our Map</a>
           </div>
         </div>
-      </article>
-    </div>
+      </div>
+    </article>
+  </div>
 
-    <!-- Bird Map -->
-    <article id="birdMap" class="wrapper style2">
-      <div class="container">
-        <header>
-          <h2>Bird Clusters in Philadelphia</h2>
-          <p>See where you can spot various bird species in Philadelphia.</p>
-        </header>
-        <!-- Interactive map placeholder -->
-        <!-- <div class="row aln-center">
+  <!-- Bird Map -->
+  <article id="birdMap" class="wrapper style2">
+    <div class="container">
+      <header>
+        <h2>Bird Clusters in Philadelphia</h2>
+        <p>See where you can spot various bird species in Philadelphia.</p>
+      </header>
+      <!-- Interactive map placeholder -->
+      <!-- <div class="row aln-center">
                     <div class="col-12">
                         <span class="image fit"><img src="images/map_placeholder" alt="Interactive Bird Map" /></span>
                     </div>
                 </div> -->
-        <div></div>
-      </div>
-    </article>
+      <div>
+        <div class="big-container">
+          <div id="mapContainer">
+            <div id="map">
+            </div>
+          </div>
+          <div id="infoContainer">
+            <div id="infoHeader">
+              <div id="birdImageContainer">
+                <img id="birdImage" src="bird_img.jpeg">
+              </div>
+              <div id="birdNames">
+                <div id="descRed">
+                  Name:
+                </div>
+                <span id="nameLabel"></span>
+                <div id="descRed">
+                  Scientific name:
+                </div>
+                <span id="sciNameLabel"></span>
+              </div>
+            </div>
+            <!-- <hr style="border-color: black;"> -->
+            <div id="birdDescription">
+              <div id="descItem">
+                <div id="descBlue"><i class="fa-solid fa-location-arrow"></i>
+                  Location: </div>
+                <span id="locationNameLabel"></span>
+              </div>
+              <div id="descItem">
+                <div id="descBlue">
+                  <i class="fa-solid fa-location-crosshairs"></i>
+                  Coordinates:
+                </div>
 
-    <!-- Identification -->
-    <article id="identification" class="wrapper style3">
-      <div class="container">
-        <header>
-          <h2>Bird Identification Tool</h2>
-          <p>Upload an image of a bird and let our AI help you identify it.</p>
-        </header>
-        <div class="row">
-          <div class="col-12">
-            <!-- AI Model upload form -->
-            <form method="post" action="#">
-              <input
-                type="file"
-                name="birdImage"
-                id="birdImage"
-                accept="image/*"
-              />
-              <ul class="actions">
-                <li><input type="submit" value="Identify Bird" /></li>
-              </ul>
-            </form>
+                <span id="locationCoordsLabel"></span>
+              </div>
+              <div id="descItem">
+                <div id="descBlue">
+                  <i class="fa-solid fa-clock"></i>
+                  Time:
+                </div>
+                <span id="timeLabel"></span>
+              </div>
+              <!-- <div id="descItem">
+                  <i class="icon-circle fa-regular fa-file-lines"></i>
+                  Description: <span id="descriptionLabel"></span>
+                </div> -->
+            </div>
           </div>
         </div>
-      </div>
-    </article>
+        <!-- <div id="buttonContainer" style="background-color: red;">
+            <div id="mapBtn">Zoom</div>
+          </div> -->
 
-    <!-- Contact -->
-    <article id="contact" class="wrapper style4">
-      <div class="container medium">
-        <header>
-          <h2>Contact</h2>
-          <p>Do you have questions or want to get involved?</p>
-        </header>
-      </div>
-    </article>
+        <div id="controlsContainer">
+          <div class="dropdown" data-control="checkbox-dropdown">
+            <label class="dropdown-label">Select</label>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/firebase.js"></script>
-  </body>
+            <div class="dropdown-list">
+              <a href="#" data-toggle="check-all" class="dropdown-option">
+                Check All
+              </a>
+
+              <label class="dropdown-option">
+                <input type="checkbox" name="dropdown-group" value="Selection 0" checked />
+                Very near <img class="marker-icon" src="marker_red.png">
+              </label>
+
+              <label class="dropdown-option">
+                <input type="checkbox" name="dropdown-group" value="Selection 1" checked />
+                Near <img class="marker-icon" src="marker_orange.png">
+              </label>
+
+              <label class="dropdown-option">
+                <input type="checkbox" name="dropdown-group" value="Selection 2" checked />
+                Not near <img class="marker-icon" src="marker_yellow.png">
+              </label>
+
+              <label class="dropdown-option">
+                <input type="checkbox" name="dropdown-group" value="Selection 3" checked />
+                Distant <img class="marker-icon" src="marker_green.png">
+              </label>
+
+              <label class="dropdown-option">
+                <input type="checkbox" name="dropdown-group" value="Selection 4" checked />
+                Far <img class="marker-icon" src="marker_blue.png">
+              </label>
+
+              <label class="dropdown-option">
+                <input type="checkbox" name="dropdown-group" value="Selection 5" checked />
+                Very far <img class="marker-icon" src="marker_purple.png">
+              </label>
+            </div>
+          </div>
+          <!-- other stuff here -->
+          <!-- <div id="controlsContainer2">
+              asdfasdf
+            </div> -->
+          <div>
+
+          </div>
+        </div>
+
+        <script src="script2.js"></script>
+</body>
+</div>
+</div>
+</article>
+
+<!-- Identification -->
+<article id="identification" class="wrapper style3">
+  <div class="container">
+    <header>
+      <h2>Bird Identification Tool</h2>
+      <p>Upload an image of a bird and let our AI help you identify it.</p>
+    </header>
+    <div class="row">
+      <div class="col-12">
+        <!-- AI Model upload form -->
+        <form method="post" action="#">
+          <input type="file" name="birdImage" id="birdImage" accept="image/*" />
+          <ul class="actions">
+            <li><input type="submit" value="Identify Bird" /></li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- Contact -->
+<article id="contact" class="wrapper style4">
+  <div class="container medium">
+    <header>
+      <h2>Contact</h2>
+      <p>Do you have questions or want to get involved?</p>
+    </header>
+  </div>
+</article>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/firebase.js"></script>
+</body>
+
 </html>

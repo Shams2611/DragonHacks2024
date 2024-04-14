@@ -1,0 +1,248 @@
+:root {
+    --red: #e74c3c;
+    --orange: #e67e22;
+    --yellow: #f1c40f;
+    --green: #2ecc71;
+    --blue: #3498db;
+    --purple: #9b59b6;
+}
+
+#map {
+    height: 300px;
+    width: 300px;
+    /* width: 50%; */
+}
+
+/**/
+
+* {
+    box-sizing: border-box;
+}
+
+/* a {
+    text-decoration: none;
+    color: #379937;
+} */
+body {
+    margin: 40px;
+}
+
+.dropdown {
+    flex: 1;
+    position: relative;
+    font-size: 14px;
+    color: #333;
+}
+
+.dropdown .dropdown-list {
+    padding: 12px;
+    background: #fff;
+    position: absolute;
+    top: 30px;
+    left: 2px;
+    right: 2px;
+    /* box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .15); */
+    transform-origin: 50% 0;
+    transform: scale(1, 0);
+    transition: transform 0.15s ease-in-out 0.15s;
+    max-height: 66vh;
+    overflow-y: scroll;
+}
+
+.dropdown .dropdown-option {
+    line-height: 1rem;
+    display: block;
+    padding: 8px 12px;
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.dropdown .dropdown-label {
+    line-height: 1rem;
+    display: block;
+    height: 30px;
+    /* background: #fff; */
+    /* border: 1px solid #ccc; */
+    padding: 6px 12px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.dropdown .dropdown-label:before {
+    content: '▼';
+    float: right;
+}
+
+.dropdown.on .dropdown-list {
+    transform: scale(1, 1);
+    transition-delay: 0s;
+}
+
+.dropdown.on .dropdown-list .dropdown-option {
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+
+.dropdown.on .dropdown-label:before {
+    content: '▲';
+}
+
+.dropdown [type="checkbox"] {
+    position: relative;
+    top: -1px;
+    margin-right: 4px;
+}
+
+.l-overlay {
+    background-color: #ffffffc3;
+    padding: .5rem;
+    border-radius: .5rem;
+    display: flex;
+    gap: .25rem;
+}
+
+button {
+    border: 0px;
+    background-color: var(--blue);
+    color: white;
+    padding: .25rem;
+    border-radius: .25rem;
+}
+
+
+/* .fa-solid{
+    color: white;
+    height: 1rem;
+    width: 1rem;
+} */
+
+.icon-circle {
+    color: white;
+    /* padding: 1rem; */
+    background-color: var(--blue);
+    /* align-items: center; */
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 2rem;
+    /* padding: .25rem; */
+}
+
+.big-container {
+    display: flex;
+}
+
+#mapContainer {
+    flex: 1;
+}
+
+#infoContainer {
+    flex: 1;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+#infoHeader {
+    display: flex;
+    gap: .5rem;
+}
+
+#birdImage {
+    border-radius: .5rem;
+    flex: 1;
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+}
+
+#birdNames {
+    flex: 1;
+    /* background-color: var(--red); */
+
+    padding: 1rem;
+    /* padding-right: 0.25rem; */
+    /* padding-left: .25rem; */
+    /* padding-bottom: .25rem; */
+    /* color: white; */
+    border-radius: .5rem;
+
+    /* line-height: 1rem; */
+    /* text-align: center; */
+    /* margin-bottom: .25rem; */
+    border: .2rem solid var(--red);
+    /* gap: .25rem; */
+}
+
+#birdImageContainer {
+    padding: 1rem;
+    border: .2rem solid var(--yellow);
+    border-radius: .5rem;
+}
+
+#birdNamesInner {
+    color: black;
+    background-color: white;
+    border-radius: .25rem;
+    /* padding: 1rem; */
+    padding: 1rem;
+}
+
+#birdDescription {
+    border: .2rem solid var(--blue);
+    border-radius: .5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+#controlsContainer {
+    display: flex;
+
+    /* gap: 1rem; */
+
+    border: .2rem solid var(--green);
+    border-radius: .5rem;
+    padding: .5rem;
+    margin: .5rem
+}
+
+#controlsContainer2 {
+    flex: 1;
+    background-color: gray;
+    padding: 1rem;
+    border-radius: .5rem;
+
+}
+
+/* 
+.leaflet-touch .leaflet-bar a {
+    color: white;
+    border: 0px;
+    background-color: var(--blue);
+    user-select: none;
+} */
+
+.marker-icon {
+    line-height: 1rem;
+    height: .75rem;
+    width: .75rem;
+}
+
+
+#descBlue,
+#descRed {
+    color: white;
+    background-color: var(--blue);
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+#descRed {
+    background-color: var(--red);
+}
