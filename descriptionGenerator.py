@@ -18,7 +18,7 @@ openai.api_key = API_KEY
 client = openai.OpenAI()
 def generate_description(tags):
     """Generate a descriptive paragraph based on the tags provided."""
-    prompt = "Generate a short description about " + ", ".join(tags) + "."
+    prompt = "Generate a short description similar to this example'From the provided descriptors, it sounds like you're describing a red oscine bird perched on a tree branch outdoors. While the specific species cannot be determined with absolute certainty from these descriptors alone, oscines are typically songbirds known for their melodious calls. The mention of the color red suggests that the bird may have red plumage, which could potentially indicate species like robins, cardinals, or other red-colored passerines.' about the following tags: " +str(tags)
     try:
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",  # or use the latest available model
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     tags = []
     with open('tags.json', 'r') as openfile:
         json_object = json.load(openfile)
-        #tags = json_object
-    tags = ["American Robin"]
+        tags = json_object
+    #tags = ["American Robin"]
     description = generate_description(tags)
     print("Generated Description:", description)
